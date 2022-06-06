@@ -14,19 +14,25 @@
     "@mui/icons-material": "^5.8.2",
     "@mui/material": "^5.8.2",
     "axios": "^0.27.2",
+    "bootstrap": "^5.0.1",
+    "is": "^3.3.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-loading-overlay": "^1.0.1",
     "react-responsive-carousel": "^3.2.23",
     "react-script": "^2.0.5",
-    "react-spinners": "^0.12.0"
+    "react-spinners": "^0.12.0",
+    "styled-components": "^5.3.5",
+    "worked": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "17.0.36",
-    "@types/react": "18.0.9",
-    "@types/react-dom": "18.0.5",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
     "@types/react-loading-overlay": "^1.0.1",
+    "@types/styled-components": "^5.1.25",
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "typescript": "4.7.2"

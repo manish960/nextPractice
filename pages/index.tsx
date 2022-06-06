@@ -5,6 +5,8 @@ import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
 import Carousel from "../components/Carousels";
 import { useState } from "react";
+import About from "../components/About";
+
 
 const Home: NextPage = () => {
   const [isShown, setIsShown] = useState(false);
@@ -12,7 +14,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar />
       <Carousel />
       <div style={{position:'absolute'}}>
         <button
@@ -41,7 +43,9 @@ const Home: NextPage = () => {
         ) : (
           ""
         )}
-      </div>
+      </div> */}
+
+      <About/>
     </>
   );
 };
