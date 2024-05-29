@@ -30,7 +30,7 @@ export const getStaticProps = async (context: any) => {
   };
 };
 
-const data = ({ data }: any) => {
+const BlogRecord = ({ data }: any) => {
   const [loading,setLoading] = useState(true);
   return (
     <>
@@ -46,4 +46,4 @@ const data = ({ data }: any) => {
   );
 };
 
-export default data;
+export default BlogRecord;
